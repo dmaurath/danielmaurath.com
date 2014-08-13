@@ -1,0 +1,585 @@
+body {background: url(http://www.danielmaurath.com/images/Visual_TOC/black_paper.png) repeat;
+	font-family: "helvetica neue", helvetica, arial, sans-serif;
+	color: white;
+}
+
+.visualtoc {width: 1000px; 
+			margin: 0 auto;
+			display:block;
+			overflow: hidden;}
+
+.header {background: url(http://www.danielmaurath.com/images/Visual_TOC/VOC.png) no-repeat center;
+		background-size: 472px 100px;
+		display: block;
+		height:100px;
+		width: 100%;
+}
+
+.wrapper{
+   position: relative;
+   float: left;
+   width: 100.00%;
+   display: block;
+}
+
+.wrapper2{
+   position: relative;
+   float: left;
+   width: 100.00%;
+   margin-top: 10px;
+   display: block;
+}
+
+
+/* CHAPTER 1: PROLOGUE */
+
+.left{
+   position: relative;
+   margin-left: 12%;
+   float: left;
+   left: 0.50%;
+   width: 143px;
+   height: 200px;
+   display:block;
+   background: url(http://www.danielmaurath.com/images/Visual_TOC/1Prologuespr.jpg)no-repeat;
+   background-size: 290px 200px;
+}
+
+.left a {	
+	display:block;
+	width:143px;
+	height:200px;
+}
+
+.left:hover {
+	background: url(http://www.danielmaurath.com/images/Visual_TOC/1Prologuespr.jpg)no-repeat;
+	background-size: 290px 200px;
+	background-position-x: -147px;
+}
+
+/* CHAPTER 2: VOLATILE */
+
+.middle{
+   position: relative;
+   float: left;
+   left: 1.50%;
+   width: 295px;
+   height:200px;
+   display: block;
+   background:url(http://www.danielmaurath.com/images/Visual_TOC/2Volatilespr.jpg)no-repeat;
+   background-size: 594px 200px;
+}
+
+.middle a {	display:block;
+	width:295px;
+	height:200px;
+}
+
+
+.middle:hover{
+	 background: url(http://www.danielmaurath.com/images/Visual_TOC/2Volatilespr.jpg) no-repeat;
+	 background-position-x: -295px;
+	 background-size: 594px 200px;
+
+}
+
+/* CHAPTER 3: FATHER */
+
+.right {
+   position: relative;
+   float: left;
+   left: 2.50%;
+   width:261px;
+   height:200px;
+   display: block;
+   background:url(http://www.danielmaurath.com/images/Visual_TOC/3Fatherspr.png)no-repeat;
+   background-size: 526px 200px;
+}
+
+.right a {	display:block;
+	width:261px;
+	height:200px;
+	}
+
+
+.right:hover{
+	 background: url(http://www.danielmaurath.com/images/Visual_TOC/3Fatherspr.png) no-repeat;
+	 background-position-x: -265px;
+	 background-size: 526px 200px;
+
+}
+
+/* CHAPTER 4: LEGEND'S END */
+
+.left1{
+   position: relative;
+   margin-left: 12%;
+   float: left;
+   left: 0.50%;
+   width: 263px;
+   height: 200px;
+   display: block;
+   background:url(http://www.danielmaurath.com/images/Visual_TOC/4LegendsEndspr.png)no-repeat;
+   background-size: 529px 200px; 
+
+}
+
+.left1 a {	
+	display:block;
+	width:263px;
+	height:200px;
+}
+
+
+.left1:hover{
+	 background: url(http://www.danielmaurath.com/images/Visual_TOC/4LegendsEndspr.png) no-repeat;
+	 background-position-x: -267px;
+	 background-size: 529px 200px; 
+
+}
+
+/* CHAPTER 5: PATIENCE THROUGH THE SEASONS */
+
+.middle1{
+   position: relative;
+   float: left;
+   left: 1.50%;
+   width: 261px;
+   height: 200px;
+   display: block;
+   background:url(http://www.danielmaurath.com/images/Visual_TOC/5Patiencespr%20OLD.jpg)no-repeat;
+   background-size: 526px 200px;
+}
+
+.middle1 a {	display:block;
+	width:261px;
+	height:200px;
+	}
+
+
+.middle1:hover{
+	 background: url(http://www.danielmaurath.com/images/Visual_TOC/5Patiencespr%20OLD.jpg) no-repeat;
+	 background-position-x: -265px;
+	 background-size: 526px 200px;
+
+}
+
+/* CHAPTER 6: ANTE ARBORE */
+
+.right1{
+   position: relative;
+   float: left;
+   left: 2.50%;
+   width: 263px;
+   height: 200px;
+   display: block;
+   background:url(http://www.danielmaurath.com/images/Visual_TOC/6AnteArborespr.jpg)no-repeat;
+   background-size: 537px 200px;
+}
+
+.right1 a {
+	display:block;
+	width:267px;
+	height:200px;
+}
+
+.right1:hover{
+	 background: url(http://www.danielmaurath.com/images/Visual_TOC/6AnteArborespr.jpg) no-repeat;
+	 background-position-x: -270px;
+	 background-size: 537px 200px;
+
+}
+
+/* CHAPTER 7: YGGDRASIL */
+
+.left2{
+   position: relative;
+   margin-left: 7%;
+   float: left;
+   left: 0.50%;
+   width: 255px;
+   height: 200px;
+   display: block;
+   background:url(http://www.danielmaurath.com/images/Visual_TOC/7Yggdrassil.png)no-repeat;
+   background-size: 517px 200px;
+}
+
+.left2 a {	
+	display:block;
+	width:255px;
+	height:200px;
+	}
+
+
+.left2:hover{
+	 background: url(http://www.danielmaurath.com/images/Visual_TOC/7Yggdrassil.png) no-repeat;
+	 background-position-x: -262px;
+	 background-size: 517px 200px;
+
+}
+
+/* CHAPTER 8: INTO PYFN */
+
+.middle2{
+   position: relative;
+   float: left;
+   left: 1.50%;
+   width: 255px;
+   height: 200px;
+   display: block;
+   background:url(http://www.danielmaurath.com/images/Visual_TOC/8IntoPyfnspr.png)no-repeat;
+   background-size: 519px 200px;}
+   
+.middle2 a {	
+	display:block;
+	width:255px;
+	height:200px;}
+
+.middle2:hover{
+	 background: url(http://www.danielmaurath.com/images/Visual_TOC/8IntoPyfnspr.png) no-repeat;
+	 background-position-x: -263px;
+	 background-size: 519px 200px;
+}
+
+/* CHAPTER 9: MEMORIAL */
+
+.right2{
+   position: relative;
+   float: left;
+   left: 2.50%;
+   height: 200px;
+   width: 264px;
+   display: block;
+   background:url(http://www.danielmaurath.com/images/Visual_TOC/9Memorialspr.jpg)no-repeat;
+   background-size: 537px 200px;
+}
+
+.right2 a {
+	display:block;
+	width:267px;
+	height:200px;
+}
+
+
+.right2:hover{
+	 background: url(http://www.danielmaurath.com/images/Visual_TOC/9Memorialspr.jpg) no-repeat;
+	 background-position-x: -270px;
+	 background-size: 537px 200px;
+}
+
+/* CHAPTER 10: PYFN WHERE TREES ARE BORN */
+
+
+.left3{
+   position: relative;
+   margin-left: 15%;
+   float: left;
+   left: 0.50%;
+   width: 233px;
+   height: 200px;
+   display: block;
+   background:url(http://www.danielmaurath.com/images/Visual_TOC/10pyfnwheretreessprNEW.png)no-repeat;
+   background-size: 471px 200px;
+}
+
+.left3 a {	display:block;
+	width:233px;
+	height:200px;
+	}
+
+
+.left3:hover{
+	 background: url(http://www.danielmaurath.com/images/Visual_TOC/10pyfnwheretreessprNEW.png) no-repeat;
+	 background-position-x: -238px;
+	 background-size: 471px 200px;
+	 }
+
+/* CHAPTER 11: INTO PYFN */
+
+.middle3{
+   position: relative;
+   float: left;
+   left: 1.50%;
+   width: 232px;
+   height: 200px;
+   display: block;
+   background:url(http://www.danielmaurath.com/images/Visual_TOC/11InPyfnspr.png)no-repeat;
+   background-size: 469px 200px;
+}
+
+.middle3 a {	
+	display:block;
+	width:232px;
+	height:200px;
+}
+
+
+.middle3:hover{
+	 background: url(http://www.danielmaurath.com/images/Visual_TOC/11InPyfnspr.png) no-repeat;
+	 background-position-x: -237px;
+	 background-size: 469px 200px;
+}
+
+/* CHAPTER 12: GAMUT */
+
+.right3{
+   position: relative;
+   float: left;
+   left: 2.50%;
+   height: 200px;
+   width: 299px;
+   display: block;
+   background:url(http://www.danielmaurath.com/images/Visual_TOC/12Gamutspr.jpg)no-repeat;
+   background-size: 603px 200px;
+}
+
+.right3 a {	
+	display:block;
+	width:299px;
+	height:200px;
+}
+
+
+.right3:hover{
+	 background: url(http://www.danielmaurath.com/images/Visual_TOC/12Gamutspr.jpg) no-repeat;
+	 background-position-x: -303px;
+	 background-size: 603px 200px;
+}
+
+/* CHAPTER 13: LIBRO */
+
+.left4{
+   position: relative;
+   margin-left: 25%;
+   float: left;
+   left: 0.50%;
+   height: 200px;
+   width: 148px;
+   display: block;
+   background:url(http://www.danielmaurath.com/images/Visual_TOC/13Librospr.jpg)no-repeat;
+   background-size: 303px 200px;
+}
+
+.left4 a {	display:block;
+	width:149px;
+	height:200px;
+}
+
+
+.left4:hover{
+	 background: url(http://www.danielmaurath.com/images/Visual_TOC/13Librospr.jpg) no-repeat;
+	 background-position-x: -153px;
+	 background-size: 303px 200px;
+}
+
+/* CHAPTER 14: AUTOIMMUNITY */
+
+.middle4{
+   position: relative;
+   float: left;
+   left: 1.50%;
+   height: 200px;
+   width: 320px;
+   display: block;
+   background:url(http://www.danielmaurath.com/images/Visual_TOC/14Autoimmunityspr.jpg)no-repeat;
+   background-size: 643px 200px;
+}
+
+.middle4 a {	display:block;
+	width:320px;
+	height:200px;
+}
+
+
+.middle4:hover{
+	 background: url(http://www.danielmaurath.com/images/Visual_TOC/14Autoimmunityspr.jpg) no-repeat;
+	 background-position-x: -322px;
+	 background-size: 643px 200px;
+}
+
+/* CHAPTER 15: BIOGRAPHY OF A DOPPELGAENGER */
+
+
+.right4{
+   position: relative;
+   float:left;
+   left: 2.50%;
+   height: 200px;
+   width: 199px;
+   display: block;
+   background:url(http://www.danielmaurath.com/images/Visual_TOC/15BioofaDoppelspr.jpg)no-repeat;
+   background-size: 403px 200px;
+}
+
+.right4 a {	display:block;
+	width:199px;
+	height:200px;
+}
+
+
+.right4:hover{
+	 background: url(http://www.danielmaurath.com/images/Visual_TOC/15BioofaDoppelspr.jpg) no-repeat;
+	 background-position-x: -204px;
+	 background-size: 403px 200px;
+}
+
+/* CHAPTER 16: ANDERSEITE */
+
+.left5{
+   position: relative;
+   margin-left: 30%;
+   float: left;
+   left: 0.50%;
+   height: 200px;
+   width: 293px;
+   display: block;
+   background:url(http://www.danielmaurath.com/images/Visual_TOC/16Anderseitespr.png)no-repeat;
+   background-size: 590px 200px;
+}
+
+.left5 a {	display:block;
+	width:293px;
+	height:200px;
+}
+
+
+.left5:hover{
+	 background: url(http://www.danielmaurath.com/images/Visual_TOC/16Anderseitespr.png) no-repeat;
+	 background-position-x: -297px;
+	 background-size: 590px 200px;
+}
+
+/* CHAPTER 17: PENDULAR SPASMODIC */
+
+.middle5{
+   position: relative;
+   float: left;
+   left: 1.50%;
+   height: 200px;
+   width: 318px;
+   display: block;
+   background:url(http://www.danielmaurath.com/images/Visual_TOC/17Pendularspasmodicspr.png)no-repeat;
+   background-size: 643px 200px;
+}
+
+.middle5 a {	
+	display:block;
+	width:318px;
+	height:200px;
+}
+
+
+.middle5:hover{
+	 background: url(http://www.danielmaurath.com/images/Visual_TOC/17Pendularspasmodicspr.png) no-repeat;
+	 background-position-x: -325px;
+	 background-size: 643px 200px;
+}
+
+/* CHAPTER 18: ARS MORIENDI */
+
+.right5{
+   position: relative;
+   margin-right: 35%;
+   margin-bottom: 25px;
+   float: right;
+   left: .5%;
+   height: 200px;
+   width: 341px;
+   display: block;
+   background:url(http://www.danielmaurath.com/images/Visual_TOC/18Arsspr.jpg)no-repeat;
+   background-size: 687px 200px;
+}
+
+.right5 a {	
+	display:block;
+	width:341px;
+	height:200px;
+}
+
+
+.right5:hover{
+	 background: url(http://www.danielmaurath.com/images/Visual_TOC/18Arsspr.jpg) no-repeat;
+	 background-position-x: -346px;
+	 background-size: 687px 200px;
+}
+
+/* FOOTER */
+
+#tocfooter{
+	position: relative;
+	float: left;
+	width: 100%;
+	display: block;
+}
+
+#tocfooter p {
+	font-size: 13px;
+	color: #666;
+	font-family: helvetica;
+	font-weight: 200;}
+
+.leftfooter {
+	display: inline-block;
+	float: left;
+	padding-bottom:20px;
+	padding-left: 3%;
+}
+
+.rightfooter {
+	display: inline-block;
+	float: right;
+	padding-bottom: 20px;
+	padding-right: 3%;
+}
+
+.biolink {
+	text-decoration: none;
+	color: #666;
+	font-family: helvetica;
+	font-weight: 200;
+}
+
+.biolink:hover {
+	color: #C0362C;
+}
+
+.source {
+	padding-top: 10px;
+	padding-left: 5px;
+}
+
+	
+/* Code for linking to sources from images. Removed: Too distracting/*
+.source {
+	position: relative;
+	display: block;
+	height: 8px;
+	width: 8px;
+	float:right;
+	top: 192px;
+	background: white;
+}
+
+.source a {
+	color:#666;
+	font-family: helvetica;
+	font-size: 4px;
+	text-transform: lowercase;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.sourcelink {
+	color:#666;
+	font-family: helvetica;
+	font-size: 4px;
+	text-transform: lowercase;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+
+.navlinks {
+	text-indent: -9999px;
+	display: block;
+}

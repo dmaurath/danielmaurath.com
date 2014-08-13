@@ -1,0 +1,181 @@
+html, body {background: black;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	color: white;
+	font-family: "helvetica neue" helvetica arial sans-serif;
+	height: 100%;
+	width: 100%;}
+
+#cover {display: block;
+		height:20%;
+		width:100%;
+		background: url(http://www.danielmaurath.com/images/ignissacer_background_mobile.png) no-repeat center center;
+		-webkit-background-size: contain;
+		-moz-background-size: contain;
+		-o-background-size: contain;
+		background-size: contain;	
+		margin-top: 100px;
+}
+
+.header {
+  background: #C0362C;
+  position: fixed;
+  height:100px;
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1px 10px rgba(0,0,0,0.6);
+  text-shadow: 1px 1px 0 #000;
+  left:0;
+  top:0;
+  width: 100%;
+  display: inline-block;
+}
+
+.header p {
+	float: left;
+	color:white;
+	text-transform: capitalize;
+}
+
+#topmenu {
+  background: black;
+  color:white;	
+  font-family: helvetica;
+  width:30%;
+  margin: 100px 0 0 0;
+  font-size: 50px;
+  padding: 0;
+  line-height: 70px;
+  text-indent: 5px;}
+  
+#logo {
+	float: left;
+	position: absolute;
+	top:5px;
+	
+}
+ 
+#logo:hover {
+	background: #C0362C;
+}
+ 	
+#topmenu li:hover {
+	background: #C0362C;
+}
+
+#topmenu li:last-child {
+	padding-bottom: 5px;
+}
+
+#topmenu a {text-decoration: none;
+  color: white;
+}
+
+ul
+{list-style-type: none;
+}
+
+h2 {
+	font-size: 90px;
+	text-align: left;
+	color: black;
+	font-weight: normal;
+	margin-right:20px;
+    width: 100%;
+    display: block;
+    padding-bottom:30px;
+    border-bottom: solid #666 1px;
+    margin-top: 0px;
+}
+
+.sections {
+	background: white;
+	padding: 20px;
+	border-bottom: solid #666 1px;
+}
+
+
+.synopsis {
+	color: #C0362C;
+}
+
+.sections p{
+	font-size: 50px;
+	line-height: 70px;
+	text-align: left;
+	color: black;
+	font-weight: normal;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: None;
+}
+
+.sections div {
+	margin-top: 0px;
+}
+
+.sections .indent {
+	padding: 30px 70px 30px 70px;
+}
+
+.sections a {
+	text-decoration: none;
+	color: #C0362C;
+}
+
+.email a{
+	text-decoration: none;
+	font-weight: 100;
+	font-size: 30px;
+	color: white;
+	display: inline-block;
+	margin-top: 100px;
+	width: 100%;
+	text-align: center;
+}
+
+.email a:hover{
+	color: #C0362C;
+}
+
+.comments {
+	font-size: 15px;
+	display: block;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	width:100%;
+	text-align: center;
+}
+
+
+#tocfooter{
+	position: relative;
+	width: 100%;
+	max-width: 800px;
+	display: block;
+	margin: 0 auto;
+}
+
+#tocfooter p {
+	font-size: 30px;
+	font-weight: 200;}
+
+.leftfooter {
+	display: inline-block;
+	float: left;
+	padding-bottom:20px;
+}
+
+.biolink {
+	text-decoration: none;
+	font-weight: 200;
+	color: white;
+}
+
+.biolink:hover {
+	color: #C0362C;
+}
+

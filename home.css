@@ -1,0 +1,47 @@
+body{font-family: "helvetica neue" helvetica arial sans-serif;font-size: 12px;font-weight: normal;
+}
+
+h1 {letter-spacing: 2px; font-size:14px; font-weight:400; text-transform:uppercase;}
+.name {letter-spacing: 5px; font-size:10px; font-weight:normal; text-transform:uppercase;padding-bottom:20px; color: black;}
+
+a {text-decoration: none; color: #444444 ; padding: 0; margin:0;}
+a:visited {color: #444444;}
+
+.columnsContainer, footer, header { position: relative; margin: 2em .5em .5em 2em; }
+
+.leftColumn {height: 100%;margin-bottom: .5em; }
+
+.read {font-weight: normal;}
+
+.main {list-style-type:none; margin-top:12px;}
+.main li {padding: 0 0 10px 0; font-weight:200; letter-spacing:1px;}
+.main a:hover {color: #ccc;}
+
+#nav {list-style-type: none; padding: 0; letter-spacing:2px;}
+#nav li {padding-bottom: 10px; font-weight: 200; font-size:20px;}
+#nav a:hover {color: #ccc;}
+
+#intro {display: block;overflow: hidden;}
+#intro img {float: left; margin-right: 1.5em;}
+#intro p {overflow:hidden;}
+
+.about {display:block;max-width:80%;overflow: hidden;}
+.about p {line-height: 24px; font-size:16px;}
+.about h1{letter-spacing: 2px; font-size:26px; font-weight:300; text-transform:uppercase;}
+.about h2{letter-spacing: 2px; font-size:14px; font-weight:400; text-transform:uppercase;}
+.about a:hover {color: #ccc;}
+
+#lola {clear:both; display:block; margin-top:7em;}
+#lola img {float: right; margin-left: 1.5em;}
+#lola p {overflow:hidden;}
+
+#vid {clear:both;margin-top:7em;}
+
+footer p {color: #808080; font-size: 8px;}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 47.5em ) {
+  .rightColumn { margin-left: 17.5em; padding-top: 12px; font-size:12px;}
+
+	.leftColumn { position: absolute; top: 0; left: 0; width: 16.75em; }
+}

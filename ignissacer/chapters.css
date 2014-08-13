@@ -1,0 +1,506 @@
+body{
+    font-family: georgia; 
+    font-size: 14px;
+    font-weight: normal;
+    width: 100%; 
+    height: 100%;
+    margin: 0 auto; 
+    background: white;
+}
+
+
+/*CHAPTER TITLE IMAGES*/
+
+#prologuechapter{ background: url(http://www.danielmaurath.com/images/chapterART/chaptertitles/1Prologue.png) no-repeat center;
+				  background-size: 97px 40px;
+				  height: 50px;
+				  width: 100%;
+				  float:right;
+				  position:absolute;}
+
+#volatilechapter {
+	background: url(http://www.danielmaurath.com/images/chapterART/chaptertitles/2Volatile.png) no-repeat center;
+	background-size: 97px 40px;
+	height: 50px;
+	width: 100%;
+	float: right;
+	position: absolute;
+}
+
+#legendschapter {
+	background: url(http://www.danielmaurath.com/images/chapterART/chaptertitles/4LegendsEnd.png) no-repeat center;
+	background-size: 147px 40px;
+	height: 50px;
+	width: 100%;
+	float: right;
+	position: absolute;	
+}
+
+#patiencechapter {
+	background: url(http://www.danielmaurath.com/images/chapterART/chaptertitles/5Patiencethroughtheseasons.png) no-repeat center;
+	background-size: 315px 40px;
+	height: 50px;
+	width: 100%;
+	float: right;
+	position: absolute;	
+}
+
+#antearborechapter {
+	background: url(http://www.danielmaurath.com/images/chapterART/chaptertitles/6AnteArbore.png) no-repeat center;
+	background-size: 132px 40px;
+	height: 50px;
+	width: 100%;
+	float: right;
+	position: absolute;	
+}
+
+#yggchapter {
+	background: url(http://www.danielmaurath.com/images/chapterART/chaptertitles/7Yggdrasil.png) no-repeat center;
+	background-size: 100px 40px;
+	height: 50px;
+	width: 100%;
+	float: right;
+	position: absolute;	
+}
+
+#intopyfnchapter {
+	background: url(http://www.danielmaurath.com/images/chapterART/chaptertitles/8IntoPyfn.png) no-repeat center;
+	background-size: 99px 40px;
+	height: 50px;
+	width: 100%;
+	float: right;
+	position: absolute;	
+}
+
+#fatherchapter {
+	background: url(http://www.danielmaurath.com/images/chapterART/chaptertitles/3Father.png) no-repeat center;
+	background-size: 97px 40px;
+	height: 50px;
+	width: 100%;
+	float: right;
+	position: absolute;	
+}
+
+#memorialchapter {
+	background: url(http://www.danielmaurath.com/images/chapterART/chaptertitles/9Memorial.png) no-repeat center;
+	background-size: 101px 40px;
+	height: 50px;
+	width: 100%;
+	float: right;
+	position: absolute;	
+}
+
+
+
+#pyfnbornchapter {
+	background: url(http://www.danielmaurath.com/images/chapterART/chaptertitles/10PyfnWhereTreesAreBorn.png) no-repeat center;
+	background-size: 304px 40px;
+	height: 50px;
+	width: 100%;
+	float: right;
+	position: absolute;	
+}
+
+#inpyfnchapter {
+	background: url(http://www.danielmaurath.com/images/chapterART/chaptertitles/11InPyfn.png) no-repeat center;
+	background-size: 80px 40px;
+	height: 50px;
+	width: 100%;
+	float: right;
+	position: absolute;	
+}
+
+#gamutchapter {
+	background: url(http://www.danielmaurath.com/images/chapterART/chaptertitles/12Gamut.png) no-repeat center;
+	background-size: 80px 40px;
+	height: 50px;
+	width: 100%;
+	float: right;
+	position: absolute;	
+}
+
+#librochapter{
+	background: url(http://www.danielmaurath.com/images/chapterART/chaptertitles/13Libro.png) no-repeat center;
+	background-size: 62px 40px;
+	height: 50px;
+	width: 100%;
+	float: right;
+	position: absolute;
+}
+
+
+#anderseitechapter {
+	background: url(http://www.danielmaurath.com/images/chapterART/chaptertitles/16Anderseite.png) no-repeat center;
+	background-size: 117px 40px;
+	height: 50px;
+	width: 100%;
+	float: right;
+	position: absolute;
+}
+
+
+#autochapter {
+	background: url(http://www.danielmaurath.com/images/chapterART/chaptertitles/14Autoimmunity.png) no-repeat center;
+	background-size: 155px 40px;
+	height: 50px;
+	width: 100%;
+	float: right;
+	position: absolute;	}
+
+#bioofdchapter{
+	background: url(http://www.danielmaurath.com/images/chapterART/chaptertitles/15BioofDoppel.png) no-repeat center;
+	background-size: 315px 40px;
+	height: 50px;
+	width: 100%;
+	float: right;
+	position: absolute;
+}
+
+#pendularchapter{
+	background: url(http://www.danielmaurath.com/images/chapterART/chaptertitles/17PendularSpasmodic.png) no-repeat center;
+	background-size: 233px 40px;
+	height: 50px;
+	width: 100%;
+	float: right;
+	position: absolute;
+}
+
+#arschapter{
+	background: url(http://www.danielmaurath.com/images/chapterART/chaptertitles/18ArsMoriendi.png) no-repeat center;
+	background-size: 140px 40px;
+	height: 50px;
+	width: 100%;
+	float: right;
+	position: absolute;
+}
+
+
+/* HEADER */ 
+
+.header {
+  background:url(http://www.danielmaurath.com/images/Visual_TOC/black_paper.png);
+  position: fixed;
+  height: 50px;
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1px 10px rgba(0,0,0,0.6);
+  text-shadow: 1px 1px 0 #000;
+  left:0;
+  top:0;
+  width: 100%;
+  display: inline-block;
+}
+
+#topmenu {
+  background: url(http://www.danielmaurath.com/images/Visual_TOC/black_paper.png);
+  color:white;	
+  font-family: helvetica;
+  width: 15%;
+  visibility: hidden;
+  margin: 50px 0 0 0;
+  font-size: 10px;
+  padding: 0;
+  line-height: 16px;
+  text-indent: 5px;}
+  
+#logo {
+	float: left;
+	position: absolute;
+}
+ 
+#logo:hover {
+	background: #C0362C;
+}
+
+#logo:hover + #topmenu {
+	visibility: visible;
+}
+
+#topmenu:hover {
+	visibility: visible;}
+	
+#topmenu li:hover {
+	background: #C0362C;
+}
+
+#topmenu li:nth-child(3):hover {
+	background: #222;
+}
+
+#topmenu li:last-child {
+	padding-bottom: 5px;
+}
+
+p {line-height: 2em;
+	text-indent: 25px;
+	margin:0;
+}
+
+#topmenu a {text-decoration: none;
+  color: white;
+}
+
+ul
+{list-style-type: none;
+}
+
+
+/*CENTRAL IMAGE*/
+
+#cover{ 
+	display: block;
+	margin: 0 auto;
+	height: 700px;
+}
+
+#prologue {
+	height: 700px;
+	width:100%;
+	margin: 0 auto;
+	text-align: center;
+	background: url(http://www.danielmaurath.com/images/chapterART/1_PrologueCSS.jpeg) center no-repeat;
+	background-size: 572px 700px;}
+
+
+#volatile {
+	margin: 0 auto;
+	display: block;}
+
+
+#father{
+	margin: auto;
+	width: 916px;
+	height: 700px;
+	padding-top: 49px;
+	display: block;
+}
+
+#legend {
+	margin:0 auto;
+	width:1083px;
+	height: 700px;
+	padding-top: 49px;
+	display: block;
+	}
+
+
+#patience {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#antearbore {
+	margin: 0 auto;
+	display: block;
+	height: 700px;
+
+}
+
+#yggdrasil {
+	margin: 0 auto;
+	display: block;
+	height: 700px;
+}
+
+#intopyfn {
+	margin: 0 auto;
+	display: block;
+}
+
+#memorial {
+	margin: 0 auto;
+	display: block;
+}
+
+#pyfnborn {
+	margin: 0 auto;
+	display: block;
+
+}
+
+#inpyfn {
+	margin: 0 auto;
+	display: block;
+}
+
+#gamut {
+	height:683px;
+	width:1024px;
+	padding-top: 49px;
+	margin: auto;
+	display: block;
+}
+
+#libro {height: 700px;
+	width:100%;
+	margin: 0 auto;
+	background: url(http://www.danielmaurath.com/images/chapterART/13_LibroCSS.jpg) center no-repeat;
+	background-size: 524px 700px;}
+
+#autoimmune {
+	text-align: center;
+	height: 700px;
+	width: 937px;
+	display: block;
+	margin: 0 auto;
+}
+
+#bioofd {
+	margin: auto;
+	display: block;
+
+}
+
+#anderseite {
+	height:440px;
+	width: 100%;
+	background: url(http://www.danielmaurath.com/images/chapterART/16_AnderseiteCSS.jpg) center no-repeat;
+	background-size: 572px 390px;
+	margin-top: 20px;
+	
+}
+
+#pendular {
+	max-width:100%;
+	margin: auto;
+	display:block;
+}
+
+#arsmoriendi{
+	max-width:100%;
+	margin: auto;
+	display:block;
+}
+
+/*CONTENT FORMATTING*/
+
+.content{
+	font-size: 16px;
+    margin: 0 auto;
+    width: 60%;
+    max-width: 750px;
+    display: block;
+    padding: 30px;
+    background: white;
+}
+
+.content img {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	padding: 20px;
+}
+
+content p {
+	line-height: 2em;
+}
+
+.content p:first-child:first-letter {
+	font-size: 3em;
+	padding-right: 2px;
+}
+
+.content .indent {
+	padding: 30px 70px 30px 70px;
+}
+
+.content .indent p:first-child:first-letter{
+	font-size: 16px;
+	padding: 0px;
+
+}
+
+.content a {
+	text-decoration: none;
+	color: #C0362C;
+}
+
+.nextchapter a{
+	text-decoration: none;
+	color: black;
+	font-size:1.3em;
+	font-family: serif;
+	text-align:right;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-right: -15px;
+	display: block;
+	text-transform: uppercase
+}
+
+.nextchapter a:hover {
+	color: #C0362C;
+}
+
+#end a{
+	text-decoration: none;
+	color: black;
+	font-size:1.3em;
+	font-family: serif;
+	text-align:right;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-right: -15px;
+	display: block;
+	text-transform: uppercase
+}
+
+#end a:hover {
+	color: #C0362C;
+}
+
+
+/* FOOTER */
+
+#tocfooter{
+	position: relative;
+	width: 980px;
+	display: block;
+	margin: 0 auto;
+	overflow: auto;
+	padding-top: 20px;
+}
+
+#tocfooter p {
+	font-size: 13px;
+	color: #666;
+	font-family: helvetica;
+	font-weight: 200;}
+
+.leftfooter {
+	display: inline-block;
+	float: left;
+	padding-bottom:20px;
+	padding-left: 100px;
+}
+
+.rightfooter {
+	display: inline-block;
+	float: right;
+	padding-bottom: 20px;
+	padding-right: 100px;
+
+}
+
+
+
+.biolink {
+	text-decoration: none;
+	color: #666;
+	font-family: helvetica;
+	font-weight: 200;
+}
+
+.biolink:hover {
+	color: #C0362C;
+}
+
+.source {
+	padding-top: 10px;
+	padding-left: 5px;
+}
+
+
+
+
